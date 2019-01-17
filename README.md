@@ -2,4 +2,4 @@
 
 #### todo
 
-- [x] initiate [doc](./doc/eslint.md)
+- [x] 代码规范检查ESlint [doc](./doc/eslint.md)
