@@ -20,10 +20,10 @@ export default class App extends Component {
   };
 
   render() {
-    // const { welcomeText } = this.state;
+    const { welcomeText } = this.state;
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>{this.state.welcomeText}</Text>
+        <Text style={styles.welcome}>{welcomeText}</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
