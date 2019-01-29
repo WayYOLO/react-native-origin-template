@@ -11,3 +11,4 @@ eslint prettier husky precommit
 - [ESlint中文网](http://eslint.cn/)
 - [使用ESLint+Prettier来统一前端代码风格](https://segmentfault.com/a/1190000015315545)
 - [git commit前检测husky与pre-commit](https://www.jianshu.com/p/f0d31f92bfab)
+- [部分忽略ESLint语法检查方法](https://www.cnblogs.com/lanshengzhong/p/8563530.html)

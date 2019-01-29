@@ -5,13 +5,23 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "lint": "./node_modules/.bin/eslint --ext .js src"
+    "lint": "./node_modules/.bin/eslint --ext .js app",
+    "lint:fix": "./node_modules/.bin/eslint --ext  .js app --fix"
   },
   "dependencies": {
+    "dva-core": "^1.4.0",
+    "dva-immer": "^0.2.4",
+    "dva-loading": "^2.0.6",
     "react": "16.6.3",
-    "react-native": "0.57.8"
+    "react-native": "0.57.8",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "redux-logger": "^3.0.6"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "23.6.0",
     "eslint": "^5.6.0",
